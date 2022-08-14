@@ -1,0 +1,13 @@
+Id,Label,Interval,Size
+Cluster#0,Pandemic impact,,25396
+Cluster#1,Comorbidity,,63868
+Cluster#2,Vaccine,,19874
+Cluster#3,Socio-economic impact,,18912
+Cluster#4,Infection,,29611
+Cluster#5,Public health,,15086
+Cluster#6,Health care management,,27638
+Cluster#7,Literature and meta analysis,,15873
+Cluster#8,Lifestyle and education impact,,213683
+Cluster#9,Children and adolescent,,11144
+Cluster#10,Cancer treatment,,8619
+Cluster#11,Biochemistry,,20678

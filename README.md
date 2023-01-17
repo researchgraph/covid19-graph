@@ -7,15 +7,15 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 Step1. Data preprocessing.ipynb
   - Load covid articles JSON files
   - Merge into one dataframe
-  - Preprocess text in the articles' title and abstract
+  - Preprocess text in the articles' title
   - Save the preprocessed text data as csv file
 
-Step2. Word2vec Model Generation.ipynb
-- Train word2vec model with the preprocessed covid article data
-- Save the trained word2vec model
+Step2. Extract Features.ipynb
+- Read preprocessed text data
+- Train word2vec model with the preprocessed text data
+- Vectorize the text data into TF-IDF matrix
 
 Step3. Apply topic modelling (NMF).ipynb
-- Convert the article text into tfidf matrix
 - Identify the optimal topic size by computing coherence scores with word2vec model
-- Apply NMF topic modelling 
-- Explore the results and save the outputs
+- Apply NMF topic modelling with the optimal topic size
+- Explore the results

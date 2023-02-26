@@ -6,7 +6,6 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 
 Step1. Data preprocessing.ipynb
   - Load covid articles JSON files
-  - Merge into one dataframe
   - Preprocess text in the articles' title
   - Save the preprocessed text data as csv file
 

@@ -4,7 +4,7 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 
 ## prerequisite
 
-- Download "search_results.json.zip" file from COVID-19 Graph(https://liveswinburneeduau-my.sharepoint.com/:f:/r/personal/jihoonwoo_swin_edu_au/Documents/COVID-19%20Graph?csf=1&web=1&e=ltKZmv) and save into 'data/search_results/' directory.
+- Download "search_results.json.zip" file from [COVID-19 Graph](https://liveswinburneeduau-my.sharepoint.com/:f:/r/personal/jihoonwoo_swin_edu_au/Documents/COVID-19%20Graph?csf=1&web=1&e=ltKZmv) and save into 'data/search_results/' directory.
 - Install required packages by using requirements.txt.
 
 ## About program process

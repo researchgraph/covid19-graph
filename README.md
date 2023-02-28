@@ -4,13 +4,13 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 
 ## prerequisite
 
-- Download "coronavirus_twenty_years_of_research" file from [COVID-19 Graph](https://liveswinburneeduau-my.sharepoint.com/:f:/r/personal/jihoonwoo_swin_edu_au/Documents/COVID-19%20Graph?csf=1&web=1&e=ltKZmv) and unzip 'search_results.zip' file under 'data/'  directory.
+- Download "coronavirus_twenty_years_of_research" zip file from [COVID-19 Graph](https://liveswinburneeduau-my.sharepoint.com/:f:/r/personal/jihoonwoo_swin_edu_au/Documents/COVID-19%20Graph?csf=1&web=1&e=ltKZmv) and move 'search_results' folder to under the 'data/'  directory.
 - Install required packages by using requirements.txt.
 
 ## About program process
 **Step1. Data preprocessing.ipynb**
 <sub>Load JSON file and preprocess text data.</sub>
-- INPUT: data/search_results/search_results.json.zip
+- INPUT: data/search_results/search_results.json
 - OUTPUT: data/processed_data/processed_data.tsv
 
 **Step2. Extract Features.ipynb**
@@ -30,5 +30,5 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
   - data/extracted_features/covid_tfidf_d.pkl
   - data/extracted_features/covid_tfidf_v.pkl
 - OUTPUT: 
-  - data/dataset/*.json
+  - data/clusters/cluster*/*.json
   - data/technical_validation/*.csv

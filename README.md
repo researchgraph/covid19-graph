@@ -32,3 +32,11 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 - OUTPUT: 
   - data/clusters/cluster*/*.json
   - data/technical_validation/*.csv
+  
+## About data directory
+<ul>
+	<li> The 'search_results' folder contains the extracted articles metadata. </li>
+	<li> The 'clusters' folder is the core of our dataset that contains the classified articles into the eight clusters. </li>
+	<li> The 'technical_validation' folder includes all csv files which are used to create figures in this paper. </li>
+	<li> The 'time_lapse_visualization' folder contains a video that animates the research trends. </li>
+</ul>

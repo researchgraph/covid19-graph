@@ -15,11 +15,11 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
   - coronavirus_twenty_years_of_research/search_results/covid_19.json
   - coronavirus_twenty_years_of_research/search_results/covid19.json
   coronavirus_twenty_years_of_research/search_results/sars_cov_2.json
-- OUTPUT: coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.tsv
+- OUTPUT: coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.pkl
 
 **Step2. Extract Features.ipynb**
 <sub>Convert the preprocessed data into TF-IDF matrix and train a word2vec model.</sub>
-- INPUT: coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.tsv
+- INPUT: coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.pkl
 - OUTPUT: 
   - coronavirus_twenty_years_of_research/technical_validation/covid_100d.model
   - coronavirus_twenty_years_of_research/technical_validation/vocid_100d.txt
@@ -29,7 +29,7 @@ Apply Non-Negative Matrix Factoriazation(NMF) topic modelling to COVID research 
 **Step3. Apply topic modelling (NMF).ipynb**
 <sub>Apply NMF topic modelling and produce outputs in JSON format.</sub>
 - INPUT: 
-  - coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.tsv
+  - coronavirus_twenty_years_of_research/technical_validation/merged_covid_articles.pkl
   - coronavirus_twenty_years_of_research/technical_validation/covid_100d.model
   - coronavirus_twenty_years_of_research/technical_validation/covid_tfidf_d.pkl
   - coronavirus_twenty_years_of_research/technical_validation/covid_tfidf_v.pkl
